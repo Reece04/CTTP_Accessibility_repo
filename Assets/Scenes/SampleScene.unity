@@ -445,11 +445,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f82581da5f369f45ae4f482dead9872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  homeWidth: 25
-  homeLength: 25
+  homeWidth: 20
+  homeLength: 20
   roomWidthMin: 5
   roomLengthMin: 5
-  maxIterations: 3
+  maxIterations: 5
   corridorWidth: 2
   material: {fileID: 2100000, guid: f99353cca4dbe5645b59ef1e5dcfc7e0, type: 2}
 --- !u!4 &1405729366
