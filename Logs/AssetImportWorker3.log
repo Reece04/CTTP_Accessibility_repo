@@ -1,0 +1,1063 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 7893 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/user/Documents/.Uni/CCTP/ProcCGen
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+63307
+Successfully changed project path to: C:/Users/user/Documents/.Uni/CCTP/ProcCGen
+C:/Users/user/Documents/.Uni/CCTP/ProcCGen
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17076] Host "[IP] 192.168.1.210 [Port] 0 [Flags] 2 [Guid] 3667053349 [EditorId] 3667053349 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17076] Host "[IP] 192.168.1.210 [Port] 0 [Flags] 2 [Guid] 3667053349 [EditorId] 3667053349 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 9.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/.Uni/CCTP/ProcCGen/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014930 seconds.
+- Loaded All Assemblies, in  0.461 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.384 seconds
+Domain Reload Profiling: 842ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (384ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\.Uni\CCTP\ProcCGen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\.Uni\CCTP\ProcCGen\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.154 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1814ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (812ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (502ms)
+			TypeCache.Refresh (474ms)
+				TypeCache.ScanAssembly (451ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3528.
+Memory consumption went from 116.7 MB to 116.7 MB.
+Total: 4.296700 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.117100 ms MarkObjects: 3.723500 ms  DeleteObjects: 0.151000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3528.
+Memory consumption went from 68.5 MB to 68.5 MB.
+Total: 3.518200 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.137400 ms MarkObjects: 3.068500 ms  DeleteObjects: 0.019600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 775291.849305 seconds.
+  path: Assets/Medieval Town (base)/Grey_Door_Square_01.obj
+  artifactKey: Guid(4ea149a9f2611384ead40287d38a79b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Town (base)/Grey_Door_Square_01.obj using Guid(4ea149a9f2611384ead40287d38a79b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712d130a16951298b687fb5d52ebbfaa') in 0.203108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medieval Town (base)/Grey_Door_Round_01.obj
+  artifactKey: Guid(794743fa07adbc846b63e25c061a2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Town (base)/Grey_Door_Round_01.obj using Guid(794743fa07adbc846b63e25c061a2fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00983d07cd1febe826b714400ca4f278') in 0.019252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medieval Town (base)/Grey_Slanted_Wall_01.obj
+  artifactKey: Guid(1e3b794db627f9d43b4c66f650d1f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Town (base)/Grey_Slanted_Wall_01.obj using Guid(1e3b794db627f9d43b4c66f650d1f613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5250ea2521ef1c226ed0eeebd76684f4') in 0.023105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medieval Town (base)/Grey_Triangle_01.obj
+  artifactKey: Guid(2c7c002ff37aeae479da812c8be2ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Town (base)/Grey_Triangle_01.obj using Guid(2c7c002ff37aeae479da812c8be2ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e849c15ccdca17113798f5135d6dd9b4') in 0.020995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medieval Town (base)/Banner_01.obj
+  artifactKey: Guid(ce763d92167e49545a188f708f17f419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Town (base)/Banner_01.obj using Guid(ce763d92167e49545a188f708f17f419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320b8c8282ad1eaf735717a0ae9e9892') in 0.030700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medieval Town (base)/Grey_Pole_01.obj
+  artifactKey: Guid(0a3e2d36704af0d45bb64d5d860845a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Town (base)/Grey_Pole_01.obj using Guid(0a3e2d36704af0d45bb64d5d860845a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea78ba3077d2cd460caa74569824b96') in 0.020651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medieval Town (base)/Grey_Corner_01.obj
+  artifactKey: Guid(409caca7b050eea4fb1b8e1f72499af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval Town (base)/Grey_Corner_01.obj using Guid(409caca7b050eea4fb1b8e1f72499af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ef996e9e916292017fd78c3e927e81') in 0.020835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.425983 seconds.
+  path: Assets/Medieval Town (base)/Castle_Wall_01.obj
+  artifactKey: Guid(a75b7be928618ca4fb3b42915c54e228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Castle_Wall_01.obj using Guid(a75b7be928618ca4fb3b42915c54e228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01462bddaae479e339db8de69652be0e') in 0.132252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Medieval Town (base)/Grey_Window_Square_Sill_01.mtl
+  artifactKey: Guid(3d182d112cc7cd640b28b8dfacc0a43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Window_Square_Sill_01.mtl using Guid(3d182d112cc7cd640b28b8dfacc0a43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a90ba2f8857807282ae155acf2f50054') in 0.009576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Medieval Town (base)/Roof_Slant_Red_01.obj
+  artifactKey: Guid(89e7ad342438f4a4dbc1e96d6f4eb7af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Roof_Slant_Red_01.obj using Guid(89e7ad342438f4a4dbc1e96d6f4eb7af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a9e50e7bd3cb74963f497ce07decd6e') in 0.032341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Medieval Town (base)/Wood_Corner_01.obj
+  artifactKey: Guid(430d7d8ed5cdfde41908088cd96c7d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Corner_01.obj using Guid(430d7d8ed5cdfde41908088cd96c7d4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7d9bf741c3fc1bf6fedef37af9b203f') in 0.032632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Medieval Town (base)/Grey_Slanted_Wall_01.mtl
+  artifactKey: Guid(fe0f6ba05b29a3f4387506c8c842077c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Slanted_Wall_01.mtl using Guid(fe0f6ba05b29a3f4387506c8c842077c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a26a9019873baa322c8a0e321e961b9') in 0.012250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medieval Town (base)/Grey_Slanted_Pole_01.mtl
+  artifactKey: Guid(4815e5b88f9760741afe932836bee170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Slanted_Pole_01.mtl using Guid(4815e5b88f9760741afe932836bee170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f8d2e25d059be2064b79895784fa281') in 0.010055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medieval Town (base)/Grey_Window_Narrow_01.obj
+  artifactKey: Guid(29b07208554b8b44689c963018221842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Window_Narrow_01.obj using Guid(29b07208554b8b44689c963018221842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd81a23a8df7f29d48caa42b7a72b407') in 0.024560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medieval Town (base)/Roof_Point_Green_01.obj
+  artifactKey: Guid(3ac29a2820fd760489c1f74381389614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Roof_Point_Green_01.obj using Guid(3ac29a2820fd760489c1f74381389614) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '532d94bccac26ccef790d34d4ebc8c65') in 0.024936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medieval Town (base)/Grey_Window_Square_01.mtl
+  artifactKey: Guid(9c982be46600bca4ca9bf7c3f5b18efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Window_Square_01.mtl using Guid(9c982be46600bca4ca9bf7c3f5b18efa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c52cbc8e105ca91eaf036641fff345') in 0.011162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Medieval Town (base)/Wood_Door_01.mtl
+  artifactKey: Guid(e1da72d645e101c47b0ce3ac7c79784d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Door_01.mtl using Guid(e1da72d645e101c47b0ce3ac7c79784d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cec3e3975653cc39510537fae9047a5a') in 0.010664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Medieval Town (base)/Grey_Door_Square_01.mtl
+  artifactKey: Guid(25e588bbef7b5a049934ca6ec6c29947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Door_Square_01.mtl using Guid(25e588bbef7b5a049934ca6ec6c29947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34d698759271c1a4c1b87dd6d1c86e38') in 0.010730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Medieval Town (base)/Wood_Border_Wall_01.mtl
+  artifactKey: Guid(c27989538e7139e4495a03a8f21ec2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Border_Wall_01.mtl using Guid(c27989538e7139e4495a03a8f21ec2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'beeb0831ddea1ee92771a8929ae6f2dc') in 0.009959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medieval Town (base)/Roof_Point_Red_01.obj
+  artifactKey: Guid(ddd3651d7cb1daa429fafc4589693410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Roof_Point_Red_01.obj using Guid(ddd3651d7cb1daa429fafc4589693410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '597c1c266f6cddbdc911758374ec9cba') in 0.030502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Medieval Town (base)/Grey_Window_Round_01.obj
+  artifactKey: Guid(b3837b78a14314c479c100d914bbc798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Window_Round_01.obj using Guid(b3837b78a14314c479c100d914bbc798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0a82947bd8a098bd11ee41dc6468a1b') in 0.023101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval Town (base)/Stairs_Wood_01.obj
+  artifactKey: Guid(1405609a417e96746bca1d4a94143810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Stairs_Wood_01.obj using Guid(1405609a417e96746bca1d4a94143810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '060864649f08d8f734aeeb42e292ce31') in 0.027321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medieval Town (base)/Plate_Sidewalk_01.mtl
+  artifactKey: Guid(c69125ccc98776e4bb4886e87ce61975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Plate_Sidewalk_01.mtl using Guid(c69125ccc98776e4bb4886e87ce61975) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81f5a3fe1a6304102677486cde3ff133') in 0.011635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Medieval Town (base)/Roof_Point_Red_01.mtl
+  artifactKey: Guid(2b49f295c29ece94f9f6220d89dd17b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Roof_Point_Red_01.mtl using Guid(2b49f295c29ece94f9f6220d89dd17b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d01b7f1f3313d9bf37ffa5f5cde4164') in 0.012330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medieval Town (base)/Grey_Slanted_Wall_01.obj
+  artifactKey: Guid(1e3b794db627f9d43b4c66f650d1f613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Slanted_Wall_01.obj using Guid(1e3b794db627f9d43b4c66f650d1f613) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ab91b99ec1bf0eb4cccfb3bc6e227ed') in 0.020848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Medieval Town (base)/Grey_Door_Round_01.obj
+  artifactKey: Guid(794743fa07adbc846b63e25c061a2fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Door_Round_01.obj using Guid(794743fa07adbc846b63e25c061a2fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '861d71b03630af0e64b162b4b9e7373f') in 0.020597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medieval Town (base)/Lightpost_01.mtl
+  artifactKey: Guid(e825054bb1de33742a2f091e6270e1a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Lightpost_01.mtl using Guid(e825054bb1de33742a2f091e6270e1a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e601e96e87a0e7684ebdabbfb90ccc7') in 0.010911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Medieval Town (base)/Stairs_Wood_01.mtl
+  artifactKey: Guid(906f0d84a52ff8a4c94f22ddbb8d6daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Stairs_Wood_01.mtl using Guid(906f0d84a52ff8a4c94f22ddbb8d6daa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '634c5df49ab3a272aeeec44db35dd61c') in 0.009742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Medieval Town (base)/Wood_Window_Square_01.mtl
+  artifactKey: Guid(d23ad690aca397a46b965ac8bed975f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Window_Square_01.mtl using Guid(d23ad690aca397a46b965ac8bed975f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '623048623195858dfd019761ba66bc9b') in 0.013735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/modular_house_collection/Prop_Exterior_Chimney.mtl
+  artifactKey: Guid(971708f07da24dc42b7065e774f58bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Exterior_Chimney.mtl using Guid(971708f07da24dc42b7065e774f58bb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2f899acf8f712bdaef65d6b7a6eff9b') in 0.012921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medieval Town (base)/Wood_Window_Square_01.obj
+  artifactKey: Guid(60fe073f04fa8a341ac208dad7a1eba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Window_Square_01.obj using Guid(60fe073f04fa8a341ac208dad7a1eba8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5545504429940d8f2a0e489eccf7a08') in 0.033247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Medieval Town (base)/Wood_Wall_Double_Cross_01.obj
+  artifactKey: Guid(9ba18eccb52a5d4459915305eec63eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Wall_Double_Cross_01.obj using Guid(9ba18eccb52a5d4459915305eec63eff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ca6b15906f90926a606a2b3ed5a4736') in 0.033213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/modular_house_collection/Prop_Curtains_Double.obj
+  artifactKey: Guid(5852f811ae3c5d842951766db51c1883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Curtains_Double.obj using Guid(5852f811ae3c5d842951766db51c1883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af51af0216ecab994578c666b162f9f3') in 0.045751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval Town (base)/Wood_Tiny_Wall_01.obj
+  artifactKey: Guid(8b39cce50acbaa847b0c4c10ec1df8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Tiny_Wall_01.obj using Guid(8b39cce50acbaa847b0c4c10ec1df8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9901fe12a15cac2e977a84b4ec2d829c') in 0.029732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/modular_house_collection/Prop_Dining_Room_Table_Square.mtl
+  artifactKey: Guid(b580f9d052ba5014eb403bef83ad7589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Dining_Room_Table_Square.mtl using Guid(b580f9d052ba5014eb403bef83ad7589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '889aa04d13a4d1087ccb6b67c1f787ba') in 0.013033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medieval Town (base)/Wood_Window_Round_Sill_01.obj
+  artifactKey: Guid(d3c4d940cdb576346bc2ad4e43b1a237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Window_Round_Sill_01.obj using Guid(d3c4d940cdb576346bc2ad4e43b1a237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '263d461e14904273cacf4a206f6ff70f') in 0.032350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/modular_house_collection/Prop_Bathroom_Toilet.mtl
+  artifactKey: Guid(7f24a5dce2d79a8408e2e0bffb4d0cda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Bathroom_Toilet.mtl using Guid(7f24a5dce2d79a8408e2e0bffb4d0cda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b7330bbd7802e3b96d5b5f8df11bee9') in 0.013527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/modular_house_collection/Prop_Dining_Room_Table_Square.obj
+  artifactKey: Guid(fe0a5a8cf48ac2c4a99ed329c259c595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Dining_Room_Table_Square.obj using Guid(fe0a5a8cf48ac2c4a99ed329c259c595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c690da518ac9071081a5124615a87030') in 0.032545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/modular_house_collection/Prop_Bedroom_Bed_Bunk.obj
+  artifactKey: Guid(ff0d6f1c3fbf4234c9cbafedf518768e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Bedroom_Bed_Bunk.obj using Guid(ff0d6f1c3fbf4234c9cbafedf518768e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3302b933af0ebdfce61636c24d6fd41a') in 0.051733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/modular_house_collection/Prop_Bedroom_Bed_Queen.mtl
+  artifactKey: Guid(19c054b882416ea48af354e4dd632e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Bedroom_Bed_Queen.mtl using Guid(19c054b882416ea48af354e4dd632e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd5634895ca0016b1007fb7ae431223c') in 0.010797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/modular_house_collection/Prop_Dining_Room_Chair.obj
+  artifactKey: Guid(0d80eca3623d1eb41a359f93997f39d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Dining_Room_Chair.obj using Guid(0d80eca3623d1eb41a359f93997f39d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb4c7f06dfb79d8da83da9485f5b8a39') in 0.033698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Medieval Town (base)/Wood_Small_Wall_01.obj
+  artifactKey: Guid(c123ea8ac10a28e43aa37f0d1ce4d0ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Small_Wall_01.obj using Guid(c123ea8ac10a28e43aa37f0d1ce4d0ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '154eaa971a8a0ea4263815d34671e10c') in 0.030668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/modular_house_collection/Prop_Bathroom_Towel_Rack.obj
+  artifactKey: Guid(740e6a2bd6ee9e04d8c35bd35fc4911f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Bathroom_Towel_Rack.obj using Guid(740e6a2bd6ee9e04d8c35bd35fc4911f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26f6b99363c6bf219c3290ae3c3aa6c7') in 0.034274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Medieval Town (base)/Grey_Wall_01.mtl
+  artifactKey: Guid(fcd6ef747bbd0fd43b2babfb88f5ea4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Wall_01.mtl using Guid(fcd6ef747bbd0fd43b2babfb88f5ea4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4514e68fad656ed21d3924d40bf0fc6') in 0.013116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Medieval Town (base)/Wood_Wall_01.obj
+  artifactKey: Guid(5bd7549d4ba97824eb10d08267faab67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Wall_01.obj using Guid(5bd7549d4ba97824eb10d08267faab67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bec38f7a2894c2656ae969f66788f9b4') in 0.030715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Medieval Town (base)/Grey_Window_Round_01.mtl
+  artifactKey: Guid(1121551778fab604091696420f01de5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Window_Round_01.mtl using Guid(1121551778fab604091696420f01de5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afd9a2ae3426fa8a11d463c08dea2dba') in 0.013050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Medieval Town (base)/Grey_Triangle_01.obj
+  artifactKey: Guid(2c7c002ff37aeae479da812c8be2ea60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Triangle_01.obj using Guid(2c7c002ff37aeae479da812c8be2ea60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de4a4de505243c8df23b536ea9650ce5') in 0.024312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/modular_house_collection/Prop_Misc_Ceiling_Light_Large.obj
+  artifactKey: Guid(b5acb760afd79e744b68bc87f5e9bd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Misc_Ceiling_Light_Large.obj using Guid(b5acb760afd79e744b68bc87f5e9bd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f0377df73e6815de9a0564245e4d223') in 0.034057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/modular_house_collection/Prop_Misc_Rug_Circle.obj
+  artifactKey: Guid(f4e2314d270e19a4f94e3d73615209f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Misc_Rug_Circle.obj using Guid(f4e2314d270e19a4f94e3d73615209f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7616fdf2c464ccd716ac420a2b3ee81') in 0.034246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/modular_house_collection/Structure_Bathroom_Cabinet_Full.obj
+  artifactKey: Guid(f6531a5f91b57c0458efbacfcd881c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Bathroom_Cabinet_Full.obj using Guid(f6531a5f91b57c0458efbacfcd881c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0327d735bda67dd2047c5bc04495e29') in 0.054940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modular_house_collection/Structure_Balcony_4_Edges.obj
+  artifactKey: Guid(e78b1befde084f7468dcdda61de348ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Balcony_4_Edges.obj using Guid(e78b1befde084f7468dcdda61de348ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d48ef39107eafc83e2ca0d9926d5995') in 0.034220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/modular_house_collection/Structure_Bathroom_Tile_Wall_Corner.mtl
+  artifactKey: Guid(554db82d3eea5d740b42622a10d2255c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Bathroom_Tile_Wall_Corner.mtl using Guid(554db82d3eea5d740b42622a10d2255c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '999956cd54a193ad493ee54179f179b0') in 0.013065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modular_house_collection/Prop_Kitchen_Microwave.mtl
+  artifactKey: Guid(9df24236b5965b54489422a20b796f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Kitchen_Microwave.mtl using Guid(9df24236b5965b54489422a20b796f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea14fd0d4738ddb23f233d7a3a6795fc') in 0.012525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/modular_house_collection/Prop_Exterior_Shutter_Raised_Panel.obj
+  artifactKey: Guid(9b73827e14ef3404e9cd2e61ed9e6018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Exterior_Shutter_Raised_Panel.obj using Guid(9b73827e14ef3404e9cd2e61ed9e6018) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9f09f40362d4cd804d7cf5938966ade') in 0.030385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/modular_house_collection/Structure_Ceiling_Beam_Angled.mtl
+  artifactKey: Guid(1bffa2331a0271146936d2f8584b5fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Ceiling_Beam_Angled.mtl using Guid(1bffa2331a0271146936d2f8584b5fbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2956a6c077a79cc6e9af5268407c153b') in 0.013874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/modular_house_collection/Prop_Misc_Rug_Square.mtl
+  artifactKey: Guid(2d3cc3e7e2b045841b9528d73b175cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Misc_Rug_Square.mtl using Guid(2d3cc3e7e2b045841b9528d73b175cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d516a046b0918a03230329379a87673') in 0.013527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/modular_house_collection/Structure_Ceiling_Beam_Angled.obj
+  artifactKey: Guid(f98cba1aa2d97a149a851dde6c958c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Ceiling_Beam_Angled.obj using Guid(f98cba1aa2d97a149a851dde6c958c1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acb6de027e8a9a89d4f552201ad417a3') in 0.027944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/modular_house_collection/Structure_Balcony_1_Edge.obj
+  artifactKey: Guid(f823e6d89673ac84fb34824ca7d99a4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Balcony_1_Edge.obj using Guid(f823e6d89673ac84fb34824ca7d99a4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab07f5340246a42fdc16d49f2e69058') in 0.035293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/modular_house_collection/Prop_Living_Room_TV_Stand.obj
+  artifactKey: Guid(53fda21aff6bcb145ae033f31a3a1942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Living_Room_TV_Stand.obj using Guid(53fda21aff6bcb145ae033f31a3a1942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8b1ba46231447829a2b2f3408eddbfe') in 0.039726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/modular_house_collection/Prop_Misc_Picture_Square_Large.obj
+  artifactKey: Guid(204792555f4efe347ac1369ef5ef9f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Misc_Picture_Square_Large.obj using Guid(204792555f4efe347ac1369ef5ef9f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4de253d75f2b8398a8c262ad41e0cc35') in 0.034502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/modular_house_collection/Prop_Living_Room_TV.obj
+  artifactKey: Guid(e2e21fd238df4e549b9450aef75da3b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Living_Room_TV.obj using Guid(e2e21fd238df4e549b9450aef75da3b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfc820505d392db6e58e3305cd0b5b49') in 0.030587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/modular_house_collection/Prop_Misc_Ceiling_Fan_5.obj
+  artifactKey: Guid(c743cedb7de3e794c94127922b58a6b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Misc_Ceiling_Fan_5.obj using Guid(c743cedb7de3e794c94127922b58a6b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad587e07e626f083b4039cad20afeaa2') in 0.071895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/modular_house_collection/Prop_Misc_Rug_Rectangle.obj
+  artifactKey: Guid(9fae37ff0da2d9c4e98f5b0fe8e20b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Prop_Misc_Rug_Rectangle.obj using Guid(9fae37ff0da2d9c4e98f5b0fe8e20b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6ee8dee66f4175379e2ee6a5669b78a') in 0.030138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modular_house_collection/Structure_Kitchen_Cabinet_Base_Full.mtl
+  artifactKey: Guid(edff42309d715c14fb5668e8b4dd86c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Kitchen_Cabinet_Base_Full.mtl using Guid(edff42309d715c14fb5668e8b4dd86c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a741518f9f5bda11214d10c641a54427') in 0.010825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/modular_house_collection/Structure_Roof_Edge_Eave.mtl
+  artifactKey: Guid(e9c84c193ed816a43a960baf122ca10f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Roof_Edge_Eave.mtl using Guid(e9c84c193ed816a43a960baf122ca10f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f63f77e87b6a54a4d6c396c7093c3ef3') in 0.010137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/modular_house_collection/Structure_Roof_Edge_Half.obj
+  artifactKey: Guid(3b9869451f188a9458f0a50f729167ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Roof_Edge_Half.obj using Guid(3b9869451f188a9458f0a50f729167ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24f4edee6a84f8ec7c7f93458562b8e8') in 0.036241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modular_house_collection/Structure_Kitchen_Cabinet_Wall_Open.obj
+  artifactKey: Guid(76d9453a0a1658d4bb239bd50e0745dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Kitchen_Cabinet_Wall_Open.obj using Guid(76d9453a0a1658d4bb239bd50e0745dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '839383d20c88c788d2eb396020f8b2ae') in 0.036417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/modular_house_collection/Structure_Exterior_Window_Double.mtl
+  artifactKey: Guid(4cf938fec56ca8f4488e093477e96c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Exterior_Window_Double.mtl using Guid(4cf938fec56ca8f4488e093477e96c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccd718d592569ca8ea7ef0ec6e9974b0') in 0.011008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/modular_house_collection/Structure_Kitchen_Cabinet_Side_Shelves.obj
+  artifactKey: Guid(04ade5dbf10b69645b1190f3a2c349ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Kitchen_Cabinet_Side_Shelves.obj using Guid(04ade5dbf10b69645b1190f3a2c349ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59c609617642a3706aefc362ea493004') in 0.034290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/modular_house_collection/Structure_Exterior_Window_Double.obj
+  artifactKey: Guid(7d68b69fc6d89f7458ee6ecc09f8ef99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Exterior_Window_Double.obj using Guid(7d68b69fc6d89f7458ee6ecc09f8ef99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4f0b53b9995413e2ad65a593dfdad5f') in 0.034839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/modular_house_collection/Structure_Stairs_Curved.obj
+  artifactKey: Guid(d9c6b58faef0a0642b7bbf1c346419ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Stairs_Curved.obj using Guid(d9c6b58faef0a0642b7bbf1c346419ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db005ccef926bd321e297d9fa73fde16') in 0.030100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/modular_house_collection/Structure_Stairs_Railing_Rising_Curved_Inner.mtl
+  artifactKey: Guid(e2aecda8136220c4f8ae7c1f004d06aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Stairs_Railing_Rising_Curved_Inner.mtl using Guid(e2aecda8136220c4f8ae7c1f004d06aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3756683e8abf7c3b81b248792782a312') in 0.012127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/modular_house_collection/Structure_Kitchen_Bar_Half.obj
+  artifactKey: Guid(af55d145522b41849be7aaab1af59e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Kitchen_Bar_Half.obj using Guid(af55d145522b41849be7aaab1af59e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9bb41425e61b7e6e322b28033d1edbe') in 0.041756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/modular_house_collection/Structure_Kitchen_Cabinet_Wall_Short.mtl
+  artifactKey: Guid(be42dc2810419f541872e2351cfcf781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Kitchen_Cabinet_Wall_Short.mtl using Guid(be42dc2810419f541872e2351cfcf781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a50dde4e7172edb6000316862f65f847') in 0.014047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modular_house_collection/Structure_Kitchen_Cabinet_Base_Edge.mtl
+  artifactKey: Guid(276ab1b9cfff4b84e8145b80c0a71a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Kitchen_Cabinet_Base_Edge.mtl using Guid(276ab1b9cfff4b84e8145b80c0a71a1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26b76afd143b79b6e1f6cc5c105759a4') in 0.012640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/modular_house_collection/Structure_Roof_Edge_Eave.obj
+  artifactKey: Guid(7dc9aeee977cbbd4288caca123912745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Roof_Edge_Eave.obj using Guid(7dc9aeee977cbbd4288caca123912745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c25cb786580ce1572d8a7e03ed7f88ff') in 0.042243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/modular_house_collection/Structure_Ceiling_Beam_Straight.obj
+  artifactKey: Guid(18288e0b51240a247bdf7b64214d0c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Ceiling_Beam_Straight.obj using Guid(18288e0b51240a247bdf7b64214d0c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c9902d6ca8abe04c714caa62d49fa3a') in 0.030657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modular_house_collection/Structure_Stairs_Railing_Landing_Side.mtl
+  artifactKey: Guid(558fbf0908562e349af684f5fdb3d61d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Stairs_Railing_Landing_Side.mtl using Guid(558fbf0908562e349af684f5fdb3d61d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c1c60a2eebcf4e41d5df6a92e91b13b') in 0.012937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/modular_house_collection/Structure_Exterior_Doorway_Sidelight.obj
+  artifactKey: Guid(e276b8d1941570b4da434d5b94e967c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Exterior_Doorway_Sidelight.obj using Guid(e276b8d1941570b4da434d5b94e967c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11db2baf339d0c46e7bfecdc17f56ea9') in 0.038569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Medieval Town (base)/Shield_Green_01.obj
+  artifactKey: Guid(e76a768ca8337864d8bc541e3fa87bb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Shield_Green_01.obj using Guid(e76a768ca8337864d8bc541e3fa87bb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46514570af07342db061fac3ed16216a') in 0.035622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Medieval Town (base)/Grey_Border_Wall_01.mtl
+  artifactKey: Guid(27fd8ee7324512e4ab11d25dcf7e7d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Grey_Border_Wall_01.mtl using Guid(27fd8ee7324512e4ab11d25dcf7e7d10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '793260e6f246e9a127f4ce6158c712ec') in 0.013343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/modular_house_collection/Structure_Stairs_Railing_Post.mtl
+  artifactKey: Guid(7f839fde5f7e0b648bfc20487682a118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Stairs_Railing_Post.mtl using Guid(7f839fde5f7e0b648bfc20487682a118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e92eebe7c96fc4c4a0a56e2d2e616ef5') in 0.013161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Inner_Joint_Main.obj
+  artifactKey: Guid(e897225f7aa7dff45897757803c09bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Inner_Joint_Main.obj using Guid(e897225f7aa7dff45897757803c09bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82cbede130be01d271ca6396fed589ba') in 0.029928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Inner_Joint_Main.mtl
+  artifactKey: Guid(63909463516cbb545a26d5042d0f5959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Inner_Joint_Main.mtl using Guid(63909463516cbb545a26d5042d0f5959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87ac9a4a1ca8a7fc40e8849f77c15f9c') in 0.013072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Doorway.obj
+  artifactKey: Guid(8f8748bf5171b334882d2c63c9c30814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Doorway.obj using Guid(8f8748bf5171b334882d2c63c9c30814) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ef388bc7870829b3ea06fb9469487dc') in 0.031650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Curved_Small_Main.obj
+  artifactKey: Guid(0e6d7c5b769d46b48a87bde1e58907dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Curved_Small_Main.obj using Guid(0e6d7c5b769d46b48a87bde1e58907dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec7be46c99a4249c137e526af3b8ba2a') in 0.033179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Medieval Town (base)/Materials/White.mat
+  artifactKey: Guid(562c53f0bccf82149a206165d6fc4b1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Materials/White.mat using Guid(562c53f0bccf82149a206165d6fc4b1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3eb1178c30b4599a6c4760cd2c363f4f') in 0.016032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Medieval Town (base)/Materials/FrontColor.mat
+  artifactKey: Guid(04017e45e6a424345bacfdf341446bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Materials/FrontColor.mat using Guid(04017e45e6a424345bacfdf341446bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '155b474c52f506b5274a0a7d55e16d48') in 0.019396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Curved_Small_Main.mtl
+  artifactKey: Guid(a6f3aeed6b231814e8d3c3cbacfe801c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Curved_Small_Main.mtl using Guid(a6f3aeed6b231814e8d3c3cbacfe801c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f16d4725b228147028ac621c4f1e1355') in 0.013843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/modular_house_collection/Structure_Stairs_Railing_Rising_Straight.mtl
+  artifactKey: Guid(6f16c2c096b1ced479547fbb64c2c44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Stairs_Railing_Rising_Straight.mtl using Guid(6f16c2c096b1ced479547fbb64c2c44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a3c8cab470a8ab68c2b0f32db112cc2') in 0.013377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Inner_Joint_Base.mtl
+  artifactKey: Guid(79be92fba8f14434381f9c83dc8cb7d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Inner_Joint_Base.mtl using Guid(79be92fba8f14434381f9c83dc8cb7d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c5b3e257aedfa99004c8e034fd2b9c9') in 0.013784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Straight_Main.mtl
+  artifactKey: Guid(b0eae6f776bb009449dada7207038e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Straight_Main.mtl using Guid(b0eae6f776bb009449dada7207038e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f78d6cb6072fed722190cda4355031d') in 0.011315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/modular_house_collection/Structure_Wall_Curved_Large_Top.obj
+  artifactKey: Guid(eb6e1a15204223a4fb92de1e71f47e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Wall_Curved_Large_Top.obj using Guid(eb6e1a15204223a4fb92de1e71f47e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91fb5d5bae3429c655e27bd58a0cbc38') in 0.028650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/modular_house_collection/Structure_Bathroom_Cabinet_Sink.mtl
+  artifactKey: Guid(484d78757e2f619418251560ca1c4431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Bathroom_Cabinet_Sink.mtl using Guid(484d78757e2f619418251560ca1c4431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7db31f353b61f6a8443c983852c5cee7') in 0.012604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Medieval Town (base)/Wood_Railing_01.mtl
+  artifactKey: Guid(74900cb6b462d794aa4e80f676bac4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Medieval Town (base)/Wood_Railing_01.mtl using Guid(74900cb6b462d794aa4e80f676bac4be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '128e654e5c20098de75fb3fbc6c9dd44') in 0.011633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/modular_house_collection/Structure_Roof_Center_Eave.obj
+  artifactKey: Guid(e7b15f887f0de31449d5fa423a20a8fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/modular_house_collection/Structure_Roof_Center_Eave.obj using Guid(e7b15f887f0de31449d5fa423a20a8fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0129f04c7197cb6e729402ff12a2a405') in 0.030559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
