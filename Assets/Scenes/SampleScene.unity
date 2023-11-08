@@ -449,9 +449,11 @@ MonoBehaviour:
   homeLength: 20
   roomWidthMin: 5
   roomLengthMin: 5
-  maxIterations: 5
+  maxIterations: 2
   corridorWidth: 2
   material: {fileID: 2100000, guid: f99353cca4dbe5645b59ef1e5dcfc7e0, type: 2}
+  wallV: {fileID: 6283455799071768831, guid: 13e4dc9cae11b7547b1b5c96853725f3, type: 3}
+  wallH: {fileID: 3858072664100711373, guid: 07a843d3a3ae3244d9a2c710a8092ebd, type: 3}
 --- !u!4 &1405729366
 Transform:
   m_ObjectHideFlags: 0

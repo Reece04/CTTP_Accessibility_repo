@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{CD99DE64-33C8-2EEE-4A3C-3A6EB5DE8C66}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -59,13 +58,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CorridorNode.cs" />
-    <Compile Include="Assets\Scripts\CorridorsGenerator.cs" />
     <Compile Include="Assets\Scripts\RoomNode.cs" />
     <Compile Include="Assets\Scripts\HomeCreator.cs" />
+    <Compile Include="Assets\Scripts\CorridorsGenerator.cs" />
     <Compile Include="Assets\Scripts\BinarySpacePartitioner.cs" />
     <Compile Include="Assets\Scripts\StructureHelper.cs" />
     <Compile Include="Assets\Scripts\Node.cs" />
+    <Compile Include="Assets\Scripts\CorridorNode.cs" />
     <Compile Include="Assets\Scripts\RoomGenerator.cs" />
     <Compile Include="Assets\Scripts\HomeGenerator.cs" />
     <Compile Include="Assets\Scripts\Line.cs" />

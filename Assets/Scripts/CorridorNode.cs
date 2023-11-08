@@ -77,9 +77,11 @@ public class CorridorNode : Node
         {
             rightStructure = possibleNeighboursInRightStructureList[0];
         }
+
         int y = GetValidYForNeighourLeftRight(leftStructure.TopLeftAreaCorner, leftStructure.BottomRightAreaCorner,
             rightStructure.TopLeftAreaCorner,
             rightStructure.BottomLeftAreaCorner);
+
         while (y == -1 && sortedLeftStructure.Count > 1)
         {
             sortedLeftStructure = sortedLeftStructure.Where(
